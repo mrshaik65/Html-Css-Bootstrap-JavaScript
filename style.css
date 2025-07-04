@@ -1,0 +1,26 @@
+.completed {
+    text-decoration: line-through;
+}
+
+#my-tasks {
+    position: relative;
+}
+
+#delete-button {
+    position: absolute;
+    right: 10px;
+    top: 2.5px;
+}
+
+.taskss {
+    border: 1px solid brown;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-left: 10px;
+    margin-right: 5px;
+    height: 15px;
+    width: 15px;
+}

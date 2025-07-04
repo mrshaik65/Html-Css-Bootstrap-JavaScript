@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+</head>
+
+<body class="">
+  <div class="d-flex flex-column justify-content-center align-items-center">
+    <img src="CSA logo.png" class="h-50" alt="" style="width: 500px" />
+    <h1 class="mt-3">CSA Todo Application</h1>
+  </div>
+
+  <div class="container mt-1">
+    <form id="task-form">
+      <div class="form-group">
+        <label for="task-name" class="fs-2 mb-3"><b>Create</b> Task</label>
+        <input type="text" id="task-name" name="task-name" class="form-control" placeholder="What needs to done?" />
+      </div>
+      <button type="submit" class="btn mt-3 text-white px-3" style="background-color: rgb(242, 128, 34)">
+        Add
+      </button>
+    </form>
+
+    <h2 class="mt-4">My Tasks</h2>
+
+    <div id="my-tasks" class="position-relative"></div>
+
+    <button id="save-tasks" class="btn text-white px-4" style="background-color: rgb(242, 128, 34)">
+      Save
+    </button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
