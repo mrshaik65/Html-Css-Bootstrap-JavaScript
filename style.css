@@ -1,3 +1,4 @@
+
 .completed {
     text-decoration: line-through;
 }
@@ -13,7 +14,7 @@
 }
 
 .taskss {
-    border: 1px solid brown;
+    border: 1px solid rgb(242, 128, 34);
     margin: 20px 0px;
     border-radius: 5px;
 }
@@ -23,4 +24,17 @@ input[type="checkbox"] {
     margin-right: 5px;
     height: 15px;
     width: 15px;
+}
+
+
+.hero{
+    height: 50%;
+    width: 500px;
+}
+@media (max-width:480px){
+    .hero{
+        width: 100%;
+        padding: 0px 50px;
+
+    }
 }
