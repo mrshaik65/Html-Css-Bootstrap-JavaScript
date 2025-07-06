@@ -1,5 +1,3 @@
-Here's a sample README file for the task management application:
-
 Task Manager Application
 
 A simple task management application that allows users to create, display, and manage tasks.
